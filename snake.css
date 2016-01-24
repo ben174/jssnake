@@ -1,13 +1,37 @@
-
 table {
   border: solid 1px #000;
+  display: inline-block;
 }
 td {
-  border: solid 1px #000;
-  width: 20px;
-  height: 20px;
+  border: solid 1px #EEE;
+  width: 30px;
+  height: 30px;
 }
 
-td.sbody {
+td.head {
   background-color: #F00;
+}
+td.body {
+  background-color: #A00;
+}
+
+td.apple {
+  background-color: #0F0;
+}
+
+button {
+  font-size: 30px;
+  display: none;
+}
+
+#score {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#status {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
