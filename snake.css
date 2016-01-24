@@ -1,0 +1,13 @@
+
+table {
+  border: solid 1px #000;
+}
+td {
+  border: solid 1px #000;
+  width: 20px;
+  height: 20px;
+}
+
+td.sbody {
+  background-color: #F00;
+}
